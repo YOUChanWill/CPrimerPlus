@@ -11,6 +11,7 @@ typedef struct TreeNode {
     struct TreeNode* rchild;
 }TreeNode;
 
+// 使用队列来实现ju'zhen
 typedef struct QueueNode {
     TreeNode* data;
     struct QueueNode* pre;
